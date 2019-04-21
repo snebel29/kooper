@@ -3,12 +3,12 @@ package controller
 import (
 	"context"
 
-	"github.com/spotahome/kooper/operator/controller"
+	"github.com/snebel29/kooper/operator/controller"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/spotahome/kooper/examples/echo-pod-controller/log"
-	"github.com/spotahome/kooper/examples/echo-pod-controller/service"
+	"github.com/snebel29/kooper/examples/echo-pod-controller/log"
+	"github.com/snebel29/kooper/examples/echo-pod-controller/service"
 )
 
 // Controller is a controller that echoes pod events.

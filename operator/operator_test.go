@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/spotahome/kooper/log"
-	mcontroller "github.com/spotahome/kooper/mocks/operator/controller"
-	mresource "github.com/spotahome/kooper/mocks/operator/resource"
-	"github.com/spotahome/kooper/operator"
-	"github.com/spotahome/kooper/operator/controller"
-	"github.com/spotahome/kooper/operator/resource"
+	"github.com/snebel29/kooper/log"
+	mcontroller "github.com/snebel29/kooper/mocks/operator/controller"
+	mresource "github.com/snebel29/kooper/mocks/operator/resource"
+	"github.com/snebel29/kooper/operator"
+	"github.com/snebel29/kooper/operator/controller"
+	"github.com/snebel29/kooper/operator/resource"
 )
 
 func TestMultiOperatorInitialization(t *testing.T) {

@@ -1,9 +1,9 @@
 package fake
 
 import (
-	clientset "github.com/spotahome/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned"
-	chaosv1alpha1 "github.com/spotahome/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned/typed/chaos/v1alpha1"
-	fakechaosv1alpha1 "github.com/spotahome/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned/typed/chaos/v1alpha1/fake"
+	clientset "github.com/snebel29/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned"
+	chaosv1alpha1 "github.com/snebel29/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned/typed/chaos/v1alpha1"
+	fakechaosv1alpha1 "github.com/snebel29/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned/typed/chaos/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

@@ -21,11 +21,11 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/util/homedir"
 
-	"github.com/spotahome/kooper/log"
-	"github.com/spotahome/kooper/operator/controller"
-	"github.com/spotahome/kooper/operator/controller/leaderelection"
-	"github.com/spotahome/kooper/operator/handler"
-	"github.com/spotahome/kooper/operator/retrieve"
+	"github.com/snebel29/kooper/log"
+	"github.com/snebel29/kooper/operator/controller"
+	"github.com/snebel29/kooper/operator/controller/leaderelection"
+	"github.com/snebel29/kooper/operator/handler"
+	"github.com/snebel29/kooper/operator/retrieve"
 )
 
 const (

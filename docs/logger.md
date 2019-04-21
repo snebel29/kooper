@@ -24,7 +24,7 @@ If you don't need a custom logger, you can pass
 
 ```golang
 import (
-    "github.com/spotahome/kooper/log"
+    "github.com/snebel29/kooper/log"
     ...
 )
 ...
@@ -40,5 +40,5 @@ ctrl := controller.NewSequential(30*time.Second, hand, retr, m, log)
 **Note: if you pass nil as the logger to the controller it will use `log.Std` logger by default**
 
 
-[logger-interface]: https://github.com/spotahome/kooper/blob/master/log/log.go
+[logger-interface]: https://github.com/snebel29/kooper/blob/master/log/log.go
 [glog]: https://github.com/golang/glog

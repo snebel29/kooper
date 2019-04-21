@@ -20,7 +20,7 @@ package versioned
 
 import (
 	glog "github.com/golang/glog"
-	superherov1alpha1 "github.com/spotahome/kooper/test/integration/operator/client/k8s/clientset/versioned/typed/superhero/v1alpha1"
+	superherov1alpha1 "github.com/snebel29/kooper/test/integration/operator/client/k8s/clientset/versioned/typed/superhero/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/spotahome/kooper/operator/common"
+	"github.com/snebel29/kooper/operator/common"
 )
 
 // Handler knows how to handle the received resources from a kubernetes cluster.

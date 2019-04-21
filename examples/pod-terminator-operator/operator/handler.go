@@ -7,9 +7,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/kubernetes"
 
-	chaosv1alpha1 "github.com/spotahome/kooper/examples/pod-terminator-operator/apis/chaos/v1alpha1"
-	"github.com/spotahome/kooper/examples/pod-terminator-operator/log"
-	"github.com/spotahome/kooper/examples/pod-terminator-operator/service/chaos"
+	chaosv1alpha1 "github.com/snebel29/kooper/examples/pod-terminator-operator/apis/chaos/v1alpha1"
+	"github.com/snebel29/kooper/examples/pod-terminator-operator/log"
+	"github.com/snebel29/kooper/examples/pod-terminator-operator/service/chaos"
 )
 
 // Handler  is the pod terminator handler that will handle the

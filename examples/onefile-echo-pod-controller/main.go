@@ -17,11 +17,11 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/util/homedir"
 
-	"github.com/spotahome/kooper/log"
-	"github.com/spotahome/kooper/operator/controller"
-	"github.com/spotahome/kooper/operator/handler"
-	"github.com/spotahome/kooper/operator/retrieve"
-	"github.com/spotahome/kooper/operator/common"
+	"github.com/snebel29/kooper/log"
+	"github.com/snebel29/kooper/operator/common"
+	"github.com/snebel29/kooper/operator/controller"
+	"github.com/snebel29/kooper/operator/handler"
+	"github.com/snebel29/kooper/operator/retrieve"
 )
 
 func main() {

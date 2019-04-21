@@ -14,12 +14,12 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/spotahome/kooper/log"
-	"github.com/spotahome/kooper/monitoring/metrics"
-	"github.com/spotahome/kooper/operator/controller/leaderelection"
-	"github.com/spotahome/kooper/operator/handler"
-	"github.com/spotahome/kooper/operator/retrieve"
-	"github.com/spotahome/kooper/operator/common"
+	"github.com/snebel29/kooper/log"
+	"github.com/snebel29/kooper/monitoring/metrics"
+	"github.com/snebel29/kooper/operator/controller/leaderelection"
+	"github.com/snebel29/kooper/operator/handler"
+	"github.com/snebel29/kooper/operator/retrieve"
+	"github.com/snebel29/kooper/operator/common"
 )
 
 var hasSyncedGlobal bool

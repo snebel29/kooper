@@ -1,13 +1,13 @@
 package operator
 
 import (
-	"github.com/spotahome/kooper/client/crd"
-	"github.com/spotahome/kooper/operator"
-	"github.com/spotahome/kooper/operator/controller"
+	"github.com/snebel29/kooper/client/crd"
+	"github.com/snebel29/kooper/operator"
+	"github.com/snebel29/kooper/operator/controller"
 	"k8s.io/client-go/kubernetes"
 
-	podtermk8scli "github.com/spotahome/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned"
-	"github.com/spotahome/kooper/examples/pod-terminator-operator/log"
+	podtermk8scli "github.com/snebel29/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned"
+	"github.com/snebel29/kooper/examples/pod-terminator-operator/log"
 )
 
 // New returns pod terminator operator.

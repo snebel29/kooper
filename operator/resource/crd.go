@@ -1,7 +1,7 @@
 package resource
 
 import (
-	"github.com/spotahome/kooper/operator/retrieve"
+	"github.com/snebel29/kooper/operator/retrieve"
 )
 
 // CRD represents a non stadandard resource or custom resource definition.

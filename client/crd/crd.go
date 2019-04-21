@@ -10,8 +10,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	kubeversion "k8s.io/kubernetes/pkg/util/version"
 
-	"github.com/spotahome/kooper/log"
-	wraptime "github.com/spotahome/kooper/wrapper/time"
+	"github.com/snebel29/kooper/log"
+	wraptime "github.com/snebel29/kooper/wrapper/time"
 )
 
 const (

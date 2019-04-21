@@ -1,4 +1,4 @@
-module github.com/spotahome/kooper
+module github.com/snebel29/kooper
 
 require (
 	cloud.google.com/go v0.37.2 // indirect

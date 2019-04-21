@@ -1,7 +1,7 @@
 package fake
 
 import (
-	chaosv1alpha1 "github.com/spotahome/kooper/examples/pod-terminator-operator/apis/chaos/v1alpha1"
+	chaosv1alpha1 "github.com/snebel29/kooper/examples/pod-terminator-operator/apis/chaos/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

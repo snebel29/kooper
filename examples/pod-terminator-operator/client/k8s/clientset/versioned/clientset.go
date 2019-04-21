@@ -2,7 +2,7 @@ package versioned
 
 import (
 	glog "github.com/golang/glog"
-	chaosv1alpha1 "github.com/spotahome/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned/typed/chaos/v1alpha1"
+	chaosv1alpha1 "github.com/snebel29/kooper/examples/pod-terminator-operator/client/k8s/clientset/versioned/typed/chaos/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

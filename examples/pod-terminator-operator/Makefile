@@ -1,7 +1,7 @@
 
 CODE_GENERATOR_IMAGE := slok/kube-code-generator:v1.9.1
 DIRECTORY := $(PWD)
-CODE_GENERATOR_PACKAGE := github.com/spotahome/kooper/examples/pod-terminator-operator
+CODE_GENERATOR_PACKAGE := github.com/snebel29/kooper/examples/pod-terminator-operator
 
 generate:
 	docker run --rm -it \

@@ -19,11 +19,11 @@ import (
 	kubetesting "k8s.io/client-go/testing"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/spotahome/kooper/log"
-	mhandler "github.com/spotahome/kooper/mocks/operator/handler"
-	"github.com/spotahome/kooper/monitoring/metrics"
-	"github.com/spotahome/kooper/operator/controller"
-	"github.com/spotahome/kooper/operator/controller/leaderelection"
+	"github.com/snebel29/kooper/log"
+	mhandler "github.com/snebel29/kooper/mocks/operator/handler"
+	"github.com/snebel29/kooper/monitoring/metrics"
+	"github.com/snebel29/kooper/operator/controller"
+	"github.com/snebel29/kooper/operator/controller/leaderelection"
 )
 
 // Namespace knows how to retrieve namespaces.
