@@ -1,5 +1,5 @@
 
-CODE_GENERATOR_IMAGE := slok/kube-code-generator:v1.9.1
+CODE_GENERATOR_IMAGE := quay.io/slok/kube-code-generator:v1.13.5
 DIRECTORY := $(PWD)
 CODE_GENERATOR_PACKAGE := github.com/snebel29/kooper/examples/pod-terminator-operator
 
